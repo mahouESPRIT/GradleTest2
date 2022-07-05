@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages {
-    stage("run frontend") {
+    stage("run adactim") {
       steps {
         echo 'executing yarn...'
         nodejs('Node-10.17') {
