@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages {
-    stage("run adactim") {
+    stage("run adactimTest") {
       steps {
         echo 'executing yarn...'
         nodejs('Node-10.17') {
